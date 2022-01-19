@@ -81,7 +81,7 @@ class BlogPackageServiceProvider extends ServiceProvider
 }
 ```
 
-## Autoloading
+## Auto-Discovery 
 
 To automatically register it with a Laravel project using Laravel's package auto-discovery we add our service provider to the "extra"> "laravel"> "providers" key in our package's `composer.json`:
 
